@@ -4,6 +4,8 @@ QDU校园集结号每日上报+github action，利用后者实现自动化
 
 inspired by [@kxkxk](https://github.com/kxkxk), thanks a lot!
 
+some of api request is based on [antlinkercampus](https://github.com/jj4/antlinkercampus).
+
 # Please keep slience!🤐
 
 # How to use ?
