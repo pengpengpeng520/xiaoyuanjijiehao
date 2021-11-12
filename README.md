@@ -26,7 +26,7 @@ QDU校园集结号每日上报+github action，利用后者实现自动化
 }
 ```
 
-5. enjoy it! 你可以随便push一个commit来触发action，看下结果如何。之后的运行结果可以在Actions里看到，每天大概四小时运行一次。
+5. enjoy it! 你可以随便push一个commit来触发action，或者点击右上角的`star`来触发，看下结果如何。之后的运行结果可以在Actions里看到，每天大概四小时运行一次。
 
 # Extra: 邮件通知
 
