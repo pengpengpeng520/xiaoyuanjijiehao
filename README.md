@@ -2,6 +2,8 @@
 
 QDU校园集结号每日上报+github action，利用后者实现自动化
 
+inspired by [@kxkxk](https://github.com/kxkxk), thanks a lot!
+
 # Please keep slience!🤐
 
 # How to use ?
