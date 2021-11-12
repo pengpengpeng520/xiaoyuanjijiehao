@@ -7,9 +7,13 @@ QDU校园集结号每日上报+github action，利用后者实现自动化
 # How to use ?
 
 1. 注册你的Github账号
-2. 点击右上方的fork按钮，fork一下此项目，然后进入你刚刚fork的repo，并设置为private repository（除非你想让别人看到你的个人信息），[不会的可以看这里](https://github.com/waylau/github-help/blob/master/Making%20a%20public%20repository%20private%20%E5%BC%80%E6%94%BE%E5%BA%93%E8%BD%AC%E4%B8%BA%E7%A7%81%E6%9C%89.md)
+2. 点击首页的加号，选择`Import Repository`，clone URL填`https://github.com/Yxa2111/qdu_info_submit.git`，名字随意，然后设置为private。
 
-3. 在刚刚的Setting里，点击Scrects，然后点击右边的`New Repository Screct`按钮，添加一个新的screct。Name中填`QDU_INFO`，然后把下面的内容填好，粘贴进`Value`里。
+3. 进入新导入的repo，选择Settings -- Actions，选择`Allow all actions`然后Save。
+
+![](imgs/open_action.png)
+
+4. 在刚刚的Settings里，点击Scrects，然后点击右边的`New Repository Screct`按钮，添加一个新的screct。Name中填`QDU_INFO`，然后把下面的内容填好，粘贴进`Value`里。
 
 ```
 {
@@ -22,7 +26,7 @@ QDU校园集结号每日上报+github action，利用后者实现自动化
 }
 ```
 
-4. enjoy it! 之后的运行结果可以在Actions里看到，每天大概四小时运行一次。
+5. enjoy it! 你可以随便push一个commit来触发action，看下结果如何。之后的运行结果可以在Actions里看到，每天大概四小时运行一次。
 
 # Extra: 邮件通知
 
