@@ -11,7 +11,7 @@ some of api request is based on [antlinkercampus](https://github.com/jj4/antlink
 # How to use ?
 
 1. 注册你的Github账号
-2. 点击首页的加号，选择`Import Repository`，clone URL填`https://github.com/Yxa2111/qdu_info_submit.git`，名字随意，然后设置为private。
+2. 点击首页的加号，选择`Import Repository`，clone URL填`https://github.com/pengpengpeng520/xiaoyuanjijiehao.git`，名字随意，然后设置为private。
 
 3. 进入新导入的repo，选择Settings -- Actions，选择`Allow all actions`然后Save。
 
