@@ -82,10 +82,14 @@ class report:
             "Body": '{"UID":""}'
         }
         rep = requests.post(self.url, headers=thisHeader, json=querystring, verify=False)
-        # 正则表达式获取taskcode
-        notdealtaskcode = re.search("TaskCode(.*?)\",\"T", rep.text).group()
-        taskcode = re.sub("TaskCode\":\"", "", notdealtaskcode)
-        TaskCode = re.sub("\",\"T", "", taskcode)
+        # print((rep.json()))
+        # 字典获取taskcode
+        for i in rep.json()['Data']['list']:
+            if i['Content'] == "请各位同学每天按时、如实上报体温，据实填报个人及亲属相关旅居史，不得瞒报、漏报！":
+                TaskCode = i['TaskCode']
+                break
+        # TaskCode = rep.json()['Data']['list'][0]['TaskCode']
+        # print(TaskCode)
         return TaskCode
 
 
