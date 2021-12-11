@@ -30,7 +30,7 @@ some of api request is based on [antlinkercampus](https://github.com/jj4/antlink
 }
 ```
 
-5. enjoy it! 你可以随便push一个commit来触发action，或者点击右上角的`star`来触发，看下结果如何。之后的运行结果可以在Actions里看到，每天大概四小时运行一次。
+5. enjoy it! 你可以随便push一个commit来触发action，或者点击右上角的`star`来触发，看下结果如何。之后的运行结果可以在Actions里看到，每天大概六小时运行一次，且只报体温。
 
 # Extra: 邮件通知
 
