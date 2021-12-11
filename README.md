@@ -24,9 +24,9 @@ some of api request is based on [antlinkercampus](https://github.com/jj4/antlink
     "phone": "your phone number here which registered 校园集结号",
     "password": "your password",
     "name": "your name",
-    "stuID": "your student ID like 2016207711",
+    "stuID": "your student ID like 20192066**",
     "academy": "your academy like '计算机科学与技术学院'",
-    "className": "your class name like 16软件"
+    "className": "your class name like 19信安"
 }
 ```
 
