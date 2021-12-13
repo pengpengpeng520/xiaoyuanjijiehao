@@ -85,7 +85,10 @@ class report:
         # print((rep.json()))
         # 字典获取taskcode
         for i in rep.json()['Data']['list']:
-            if i['Content'] == "请各位同学每天按时、如实上报体温，据实填报个人及亲属相关旅居史，不得瞒报、漏报！":
+            if i['Content'] == "请每位同学每天按时、如实上报体温，据实填报个人及亲属相关旅居史，不得瞒报、漏报！":
+                TaskCode = i['TaskCode']
+                break
+            if i['Content'] == "请每位同学每天按时、如实上报体温，据实填报个人及亲属相关旅居史，不得瞒报、漏报！":
                 TaskCode = i['TaskCode']
                 break
         # TaskCode = rep.json()['Data']['list'][0]['TaskCode']
